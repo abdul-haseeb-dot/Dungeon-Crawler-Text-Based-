@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build Dungeon Game with PDCurses",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "main.cpp",
+                "Dungeon.cpp",
+                "ElementQueue.cpp",
+                "Enemy.cpp",
+                "Food.cpp",
+                "Inventory.hpp",
+                "Player.cpp",
+                "PlayerInventory.cpp",
+                "Room.cpp",
+                "RoomElements.cpp",
+                "Weapon.cpp",
+                "-o",
+                "${fileDirname}\\dungeon_escape.exe",
+                "-I", "C:\\PDCurses-3.9\\PDCurses-3.9",
+                "-L", "C:\\PDCurses-3.9\\PDCurses-3.9\\wincon",
+                "-l:pdcurses.a"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compile all files for Dungeon Escape with PDCurses"
+        }
+    ]
+}
