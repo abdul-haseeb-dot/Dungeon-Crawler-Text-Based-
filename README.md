@@ -1,4 +1,4 @@
-# Dungeon Escape
+# Dungeon Crawler
 
 A console-based dungeon crawler game built in C++ using Object-Oriented Programming principles and the PDCurses library for terminal UI. This project was developed as an academic assignment for an Object-Oriented Programming course.
 
@@ -201,3 +201,4 @@ This is an academic project. If you'd like to contribute or suggest improvements
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
+
